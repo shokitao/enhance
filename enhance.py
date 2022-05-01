@@ -51,7 +51,7 @@ image = cv2.imread(file_name_full_path)
 # Read the desired model
 # path = "FSRCNN_x2.pb"  # ok
 # path = "ESPCN_x4.pb"  # ok
-path = "EDSR_x2.pb"  # le foto devono essere quadrate
+path = "EDSR_x2.pb"
 sr.readModel(path)
 
 # Set the desired model and scale to get correct pre- and post-processing
